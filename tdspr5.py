@@ -3,13 +3,13 @@ do = "\033[1;91m"
 xanhbien = "\033[1;36m"
 vang = "\033[0;33m"
 hong = "\033[1;35m"
-xanhduong = "\033[1;34m"
+xanhduong = "\033[1;20m"
 xanhla = "\033[1;32m"
 xanh="\033[1;32m"
 cam="\033[1;33m"
-blue="\033[1;34m"
-lam="\033[1;34m"
-tim="\033[1;34m"
+blue="\033[1;20m"
+lam="\033[1;20m"
+tim="\033[1;20m"
 syan="\033[1;36m"
 xnhac= "\033[1;96m"
 den="\033[1;90m"
@@ -23,7 +23,7 @@ red = "\033[1;31m"
 do = "\033[1;31m"
 vang = "\033[1;33m"
 tim = "\033[1;35m"
-lamd = "\033[1;34m"
+lamd = "\033[1;20m"
 lam = "\033[1;36m"
 tim = "\033[35m"
 hong = "\033[1;95m"
@@ -54,32 +54,32 @@ def echo(text):
 		sleep(0.0001)
 	print()
 def frive(frive):
-   echo(trang + "= "*frive)
+   echo(trang + "────"*frive)
 def clear():
 	if os.name=='nt':os.system('cls')
 	else:os.system('clear')
 def idelay(delaymin, delaymax):
 	delay = randint(delaymin, delaymax)
 	for demtg in range(int(delay), -1, -1):
-		print(trang+"["+xanh+"FRIVR-TOOL"+trang+"] ["+xanh+"L         "+trang+"] ["+xanh+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+xanh+"FRIVE"+trang+"] ["+xanh+"L         "+trang+"] ["+xanh+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+cam+"FRIVR-TOOL"+trang+"] ["+cam+"L"+xanh+"O        "+trang+"] ["+cam+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+cam+"FRIVE"+trang+"] ["+cam+"L"+xanh+"O        "+trang+"] ["+cam+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+blue+"FRIVR-TOOL"+trang+"] ["+blue+"L"+xanh+"O"+cam+"A       "+trang+"] ["+blue+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+blue+"FRIVE"+trang+"] ["+blue+"L"+xanh+"O"+cam+"A       "+trang+"] ["+blue+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+lam+"FRIVR-TOOL"+trang+"] ["+lam+"L"+xanh+"O"+cam+"A"+blue+"D      "+trang+"] ["+lam+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+lam+"FRIVE"+trang+"] ["+lam+"L"+xanh+"O"+cam+"A"+blue+"D      "+trang+"] ["+lam+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+tim+"FRIVR-TOOL"+trang+"] ["+tim+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I     "+trang+"] ["+tim+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+tim+"FRIVE"+trang+"] ["+tim+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I     "+trang+"] ["+tim+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+xnhac+"FRIVR-TOOL"+trang+"] ["+xnhac+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N    "+trang+"] ["+xnhac+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+xnhac+"FRIVE"+trang+"] ["+xnhac+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N    "+trang+"] ["+xnhac+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+den+"FRIVR-TOOL"+trang+"] ["+den+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G   "+trang+"] ["+den+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+den+"FRIVE"+trang+"] ["+den+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G   "+trang+"] ["+den+str(demtg)+trang+"]",end="\r")
 		sleep(0.1)
-		print(trang+"["+do+"FRIVR-TOOL"+trang+"] ["+do+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G.  "+trang+"] ["+do+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+do+"FRIVE"+trang+"] ["+do+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G.  "+trang+"] ["+do+str(demtg)+trang+"]",end="\r")
 		sleep(0.2)
-		print(trang+"["+vang+"FRIVR-TOOL"+trang+"] ["+vang+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G.. "+trang+"] ["+vang+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+vang+"FRIVE"+trang+"] ["+vang+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G.. "+trang+"] ["+vang+str(demtg)+trang+"]",end="\r")
 		sleep(0.3)
-		print(trang+"["+vang+"FRIVR-TOOL"+trang+"] ["+vang+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G..."+trang+"] ["+vang+str(demtg)+trang+"]",end="\r")
+		print(trang+"["+vang+"FRIVE"+trang+"] ["+vang+"L"+xanh+"O"+cam+"A"+blue+"D"+lam+"I"+tim+"N"+xnhac+"G..."+trang+"] ["+vang+str(demtg)+trang+"]",end="\r")
 	print(trang+" ĐANG LÀM JOB TDS",end="\r")
 def LoadJob(delay):
 	for demtg in range(int(delay), -1, -1):
@@ -135,13 +135,13 @@ class Facebook:
 		feedback = "ZmV"+get.split('"feedback_id":"ZmV')[1].split('"')[0]
 		trackingdata = get.split('trackingdata":{"id":"')[1].split('"')[0]
 		if type == "LIKE":id = "1635855486666999"
-		if type == "LOVE":id = "1678524932434102"
+		if type == "LOVE":id = "1678524932420102"
 		if type == "CARE":id = "613557422527858"
 		if type == "HAHA":id = "115940658764963"
 		if type == "WOW":id = "478547315650144"
-		if type == "SAD":id = "908563459236466"
-		if type == "ANGRY":id = "444813342392137"
-		data = {"av" : self.user_id,"__user" : self.user_id,"__a" : "1","__dyn" : "7AzHJ16U9ob8ng5K8G6EjBWo2nDwAxu13wFwhUngS3q32360CEboG4E762S1DwUx60GE3Qwb-q7oc81xoswMwto88422y11xmfz83WwgEcEhwGxu782lwv89kbxS2218wc61axe3S7Udo5qfK0zEkxe2GewGwkUtxGm2SUbElxm3y11xfxmu3W3y261eBx_y88E3VBwJCwLyES0Io88cA0z8c84qifxe3u364UrwFg662S269wkoqw","__csr" : "g9Q9OOhthsIBFPQYFzQyOtvFsy4TFsyRozTsGGHN9k8W8ObECQD4QParJ4Iz8yp6A_AKlAKUKjuh5BBBVfUx3Z7AFABGl5LvKmK9yCF8xeaVAex14gGAXQ8DyKV8hyE9F8XCAyQECqcg94EgzUdGKmELCCCxycxuUfEKbwwwjEhG2JojgcobE8VEdoc8pxa9zoWfwgoC9wUw9i1awdW0G84K49UaUhwtoiwdu1sw8KUdE11o0cVU0Iq03vm00Id80qKG3-0tW0hq02Kd0ee07qi2E0hmwoU0j_w0CCw1We0Hpo1ao0x69w1jO3u0W817UgwfC2a","__req" : "l","__hs" : "19438.HYP:comet_pkg.2.1..2.1","dpr" : "2","__ccg" : "GOOD","__rev" : "1007150578","__s" : "ajoats:subbv5:fs4kwq","__hsi" : "7213197347307427052","__comet_req" : "15","fb_dtsg" : self.fb,"jazoest" : "25611","lsd" : self.lsd,"__aaid" : "710580363942837","__spin_r" : "1007150578","__spin_b" : "trunk","__spin_t" : "1679453381","fb_api_caller_class" : "RelayModern","fb_api_req_friendly_name" : "CometUFIFeedbackReactMutation",'variables' : '{"input":{"attribution_id_v2":"CometGroupPermalinkRoot.react,comet.group.permalink,via_cold_start,1679453388936,459905,2361831622,","feedback_id":"'+feedback+'","feedback_reaction_id":"'+id+'","feedback_source":"OBJECT","is_tracking_encrypted":true,"tracking":["'+trackingdata+'"],"session_id":"12845410-1d81-40bd-95d0-ccd042ba90eb","actor_id":"'+self.user_id+'","client_mutation_id":"3"},"useDefaultActor":false,"scale":2}','server_timestamps' : 'true',"doc_id" : "5703418209680126"}
+		if type == "SAD":id = "908562059236466"
+		if type == "ANGRY":id = "444813202392137"
+		data = {"av" : self.user_id,"__user" : self.user_id,"__a" : "1","__dyn" : "7AzHJ16U9ob8ng5K8G6EjBWo2nDwAxu13wFwhUngS3q32360CEboG4E762S1DwUx60GE3Qwb-q7oc81xoswMwto88422y11xmfz83WwgEcEhwGxu782lwv89kbxS2218wc61axe3S7Udo5qfK0zEkxe2GewGwkUtxGm2SUbElxm3y11xfxmu3W3y261eBx_y88E3VBwJCwLyES0Io88cA0z8c84qifxe3u364UrwFg662S269wkoqw","__csr" : "g9Q9OOhthsIBFPQYFzQyOtvFsy4TFsyRozTsGGHN9k8W8ObECQD4QParJ4Iz8yp6A_AKlAKUKjuh5BBBVfUx3Z7AFABGl5LvKmK9yCF8xeaVAex14gGAXQ8DyKV8hyE9F8XCAyQECqcg94EgzUdGKmELCCCxycxuUfEKbwwwjEhG2JojgcobE8VEdoc8pxa9zoWfwgoC9wUw9i1awdW0G84K49UaUhwtoiwdu1sw8KUdE11o0cVU0Iq03vm00Id80qKG3-0tW0hq02Kd0ee07qi2E0hmwoU0j_w0CCw1We0Hpo1ao0x69w1jO3u0W817UgwfC2a","__req" : "l","__hs" : "19438.HYP:comet_pkg.2.1..2.1","dpr" : "2","__ccg" : "GOOD","__rev" : "1007150578","__s" : "ajoats:subbv5:fs4kwq","__hsi" : "7213197207307427052","__comet_req" : "15","fb_dtsg" : self.fb,"jazoest" : "25611","lsd" : self.lsd,"__aaid" : "710580363942837","__spin_r" : "1007150578","__spin_b" : "trunk","__spin_t" : "1679453381","fb_api_caller_class" : "RelayModern","fb_api_req_friendly_name" : "CometUFIFeedbackReactMutation",'variables' : '{"input":{"attribution_id_v2":"CometGroupPermalinkRoot.react,comet.group.permalink,via_cold_start,1679453388936,459905,2361831622,","feedback_id":"'+feedback+'","feedback_reaction_id":"'+id+'","feedback_source":"OBJECT","is_tracking_encrypted":true,"tracking":["'+trackingdata+'"],"session_id":"12845410-1d81-40bd-95d0-ccd042ba90eb","actor_id":"'+self.user_id+'","client_mutation_id":"3"},"useDefaultActor":false,"scale":2}','server_timestamps' : 'true',"doc_id" : "5702018209680126"}
 		get = requests.post("https://www.facebook.com/api/graphql/", headers=self.head, cookies=self.cookie, data=data)
 		return get
 	def likepage(self, id):
@@ -158,11 +158,11 @@ class Facebook:
 			data = {"av" : self.user_id,"__user" : self.user_id,"__a" : "1","__dyn" : "7AzHxqU5a5Q1ryUbFuC0BVU98nwgUao5-ewSwMwNw9G2S7o762S1DwUx60p-0LVEtwMw65xO0FE886C11xmfz83WwgEcEhwGxu782lwv89kbxS2218wc61uwZx-3m1mzXw8W58jwGzEaE766FobrwKxm5o7G4-5pUfEe872m7-8wywfCm2Sq2-azo2NwwwOg2cwMwhF8-4UdUcojxK2B0oobo8oC1hxG","__csr" : "g94hqPtB5JRh9lQAAAAQZimKRluh99CF4_WmZDmLqrB8Z29oKVGKQmbKrBBWBgCqmrx24WVUux6Ex0Ex2aBz9UC4U4O3C15xCdwsUhxa2WbwhUeE4Kby-0lfwam0q-00oQGA0haySJiKHg8UhwgogwEw","__req" : "o","__hs" : "19422.HYP:comet_pkg.2.0.0.2.1","dpr" : "2","__ccg" : "GOOD","__rev" : "1007055511","__s" : "adfco7:2ievkh:x4z7bk","__hsi" : "7207283130392575182","__comet_req" : "15","fb_dtsg" : self.fb,"jazoest" : self.jazoest,"lsd" : self.lsd,"__aaid" : "710580363942837","__spin_r" : "1007055511","__spin_b" : "trunk","__spin_t" : "1678076370","fb_api_caller_class" : "RelayModern","fb_api_req_friendly_name" : "CometProfilePlusLikeMutation",'variables' : '{"input":{"page_id":"'+id+'","source":null,"actor_id":"'+self.user_id+'","client_mutation_id":"1"},"scale":2}',"server_timestamps" : "true","doc_id" : "4867271226642619"}
 			get = requests.post("https://www.facebook.com/api/graphql/", headers=self.head, data=data, cookies=self.cookie)
 		else:
-			data = {'av':self.user_id,'__user':self.user_id,'__a':'1','__dyn':'7AzHxqU5a5Q1ryaxG4VuC0BVU98nwgU765QdwSwAyU8EW0CEboG4E762S1DwUx60gu0BU2_CxS320om78bbwto88422y11xmfz83WwgEcHzoaEnxO0Bo7O2l2Utwwwi831wiEjwZwlo5qfK0zEkxe2GewGwkUtxGm2SUbElxm3y11xfxmu3W2i4U72m7-8wywfCm2Sq2-azo2NwwwOg2cwMwhF8-4UdUcojxK2B0oobo8o','__csr':'g8JNc9n2tWr5W4til-I_On8J9rshlR8nZFiELH_Hnij4JfOJLOGiLoxLBlGRuZaGF4CZddQ4L_JfCiDKWVryuiqqFAcy8x6CBtqJkF8ZVExauAbgOtLAG5FUGFptxqfxi4Hzaz8CQ2SaxC9xCi48Wqqq11g8EaoS9g9U4m224oG68sGucx68wyg6G22mfxa4Xxq7EKbwi82LwNxu48c814EC2K3O5U-2WEhCxO1EwioeUiwiE6e3HwTw18C02k-0exw0deO0jV05Swe20bTw5_w1zF03I202po6e07Co0K6Zlw0jjo0E-0qW08ug8UhBw21e0fLw5Ww9K0Z86u','__req':'o','__hs':'19363.HYP:comet_pkg.2.1.0.2.1','dpr':'2','__ccg':'GOOD','__rev':'1006793331','__s':'v80lqo:poayhk:qxdcmk','__hsi':'7185553908092803679','__comet_req':'15','fb_dtsg':self.fb,'jazoest':self.jazoest,'lsd':'V64c7kKr5hAtzX2IIDgKp8','__aaid':'775223720487728','__spin_r':'1006793331','__spin_b':'trunk','__spin_t':'1673017141','fb_api_caller_class':'RelayModern','fb_api_req_friendly_name':'CometPageLikeCommitMutation','variables':'{"input":{"attribution_id_v2":"CometSinglePageHomeRoot.react,comet.page,via_cold_start,1673017144344,576155,250100865708545,","is_tracking_encrypted":true,"page_id":"'+id+'","source":"unknown","tracking":[],"actor_id":"'+self.user_id+'","client_mutation_id":"1"},"isAdminView":false}','server_timestamps':'true','doc_id':'5491200487600992',}
+			data = {'av':self.user_id,'__user':self.user_id,'__a':'1','__dyn':'7AzHxqU5a5Q1ryaxG4VuC0BVU98nwgU765QdwSwAyU8EW0CEboG4E762S1DwUx60gu0BU2_CxS320om78bbwto88422y11xmfz83WwgEcHzoaEnxO0Bo7O2l2Utwwwi831wiEjwZwlo5qfK0zEkxe2GewGwkUtxGm2SUbElxm3y11xfxmu3W2i4U72m7-8wywfCm2Sq2-azo2NwwwOg2cwMwhF8-4UdUcojxK2B0oobo8o','__csr':'g8JNc9n2tWr5W4til-I_On8J9rshlR8nZFiELH_Hnij4JfOJLOGiLoxLBlGRuZaGF4CZddQ4L_JfCiDKWVryuiqqFAcy8x6CBtqJkF8ZVExauAbgOtLAG5FUGFptxqfxi4Hzaz8CQ2SaxC9xCi48Wqqq11g8EaoS9g9U4m224oG68sGucx68wyg6G22mfxa4Xxq7EKbwi82LwNxu48c814EC2K3O5U-2WEhCxO1EwioeUiwiE6e3HwTw18C02k-0exw0deO0jV05Swe20bTw5_w1zF03I202po6e07Co0K6Zlw0jjo0E-0qW08ug8UhBw21e0fLw5Ww9K0Z86u','__req':'o','__hs':'19363.HYP:comet_pkg.2.1.0.2.1','dpr':'2','__ccg':'GOOD','__rev':'1006793331','__s':'v80lqo:poayhk:qxdcmk','__hsi':'7185553908092803679','__comet_req':'15','fb_dtsg':self.fb,'jazoest':self.jazoest,'lsd':'V64c7kKr5hAtzX2IIDgKp8','__aaid':'775223720487728','__spin_r':'1006793331','__spin_b':'trunk','__spin_t':'1673017141','fb_api_caller_class':'RelayModern','fb_api_req_friendly_name':'CometPageLikeCommitMutation','variables':'{"input":{"attribution_id_v2":"CometSinglePageHomeRoot.react,comet.page,via_cold_start,1673017144204,576155,250100865708545,","is_tracking_encrypted":true,"page_id":"'+id+'","source":"unknown","tracking":[],"actor_id":"'+self.user_id+'","client_mutation_id":"1"},"isAdminView":false}','server_timestamps':'true','doc_id':'5491200487600992',}
 			get = requests.post('https://www.facebook.com/api/graphql/',headers=self.head, cookies=self.cookie, data=data)
 		return get
 	def group(self, id):
-		data = {'av':self.user_id,'__user':self.user_id,'__a':'1','__dyn':'7AzHJ16U9ob8ng5K8G6EjBWo2nDwAxu13wsongS3q2ibwyzE2qwJyEiwsobo6u3y4o2Gwfi0LVEtwMw65xO321Rwwwg8a8465o-cwfG12wOKdwGxu782lwv89kbxS2218wc61axe3S1lwlE-U2exi4UaEW2G1jxS6FobrwKxm5oe8464-5pUfEe88o4Wm7-8xmcwfCm2CVEbUGdG1Fwh888cA0z8c84qifxe3u364UrwFg662S26','__csr':'gadNAIYllhsKOE8IpidFPhcIx34Omy9-O9OO8hZ_8-kAymHGAybJqGlvmWl7nWBWJ7GqaXHz7GFe9oy_KBl7h6h4KVah94QeKVHACDyryqKdF5GuXXBCgNpbJ5jjGm8yQEWrCixl6xWuiih5yo-8wAy84mq4poN0Vzbxe16whAufgO5U8UKi4Eyu4EjwGK78527o8411wgocU5u1MwSwFyU8Uf8igaElw8e9xK2GewNgy5o5m1nDwLwrokm16www8G03cy0arw0Zyw0aaC0mG0eJzl8ow2Jw6tw44w4uzo045W1UgSeg0z-07X81-E0cNo0By1Wwi8fE0lYw2h81a8gw9u','__req':'k','__hs':'19363.HYP:comet_pkg.2.1.0.2.1','dpr':'2','__ccg':'EXCELLENT','__rev':'1006794317','__s':'gtlvj8:fxbzro:f2kk19','__hsi':'7185658639628512803','__comet_req':'15','fb_dtsg':self.fb,'jazoest':self.jazoest,'lsd':'gKT7R4dxIBjI4wUDUP5ivT','__aaid':'1576489885859472','__spin_r':'1006794317','__spin_b':'trunk','__spin_t':'1673041526','fb_api_caller_class':'RelayModern','fb_api_req_friendly_name':'GroupCometJoinForumMutation','variables':'{"feedType":"DISCUSSION","groupID":"'+id+'","imageMediaType":"image/x-auto","input":{"action_source":"GROUP_MALL","attribution_id_v2":"CometGroupDiscussionRoot.react,comet.group,via_cold_start,1673041528761,114928,2361831622,","group_id":"'+id+'","group_share_tracking_params":{"app_id":"2220391788200892","exp_id":"null","is_from_share":false},"actor_id":"'+self.user_id+'","client_mutation_id":"1"},"inviteShortLinkKey":null,"isChainingRecommendationUnit":false,"isEntityMenu":true,"scale":2,"source":"GROUP_MALL","renderLocation":"group_mall","__relay_internal__pv__GroupsCometEntityMenuEmbeddedrelayprovider":true,"__relay_internal__pv__GlobalPanelEnabledrelayprovider":false}','server_timestamps':'true','doc_id':'5853134681430324','fb_api_analytics_tags':'["qpl_active_flow_ids=431626709"]',}
+		data = {'av':self.user_id,'__user':self.user_id,'__a':'1','__dyn':'7AzHJ16U9ob8ng5K8G6EjBWo2nDwAxu13wsongS3q2ibwyzE2qwJyEiwsobo6u3y4o2Gwfi0LVEtwMw65xO321Rwwwg8a8465o-cwfG12wOKdwGxu782lwv89kbxS2218wc61axe3S1lwlE-U2exi4UaEW2G1jxS6FobrwKxm5oe8464-5pUfEe88o4Wm7-8xmcwfCm2CVEbUGdG1Fwh888cA0z8c84qifxe3u364UrwFg662S26','__csr':'gadNAIYllhsKOE8IpidFPhcIx20Omy9-O9OO8hZ_8-kAymHGAybJqGlvmWl7nWBWJ7GqaXHz7GFe9oy_KBl7h6h4KVah94QeKVHACDyryqKdF5GuXXBCgNpbJ5jjGm8yQEWrCixl6xWuiih5yo-8wAy84mq4poN0Vzbxe16whAufgO5U8UKi4Eyu4EjwGK78527o8411wgocU5u1MwSwFyU8Uf8igaElw8e9xK2GewNgy5o5m1nDwLwrokm16www8G03cy0arw0Zyw0aaC0mG0eJzl8ow2Jw6tw44w4uzo045W1UgSeg0z-07X81-E0cNo0By1Wwi8fE0lYw2h81a8gw9u','__req':'k','__hs':'19363.HYP:comet_pkg.2.1.0.2.1','dpr':'2','__ccg':'EXCELLENT','__rev':'1006794317','__s':'gtlvj8:fxbzro:f2kk19','__hsi':'7185658639628512803','__comet_req':'15','fb_dtsg':self.fb,'jazoest':self.jazoest,'lsd':'gKT7R4dxIBjI4wUDUP5ivT','__aaid':'1576489885859472','__spin_r':'1006794317','__spin_b':'trunk','__spin_t':'1673041526','fb_api_caller_class':'RelayModern','fb_api_req_friendly_name':'GroupCometJoinForumMutation','variables':'{"feedType":"DISCUSSION","groupID":"'+id+'","imageMediaType":"image/x-auto","input":{"action_source":"GROUP_MALL","attribution_id_v2":"CometGroupDiscussionRoot.react,comet.group,via_cold_start,1673041528761,114928,2361831622,","group_id":"'+id+'","group_share_tracking_params":{"app_id":"2220391788200892","exp_id":"null","is_from_share":false},"actor_id":"'+self.user_id+'","client_mutation_id":"1"},"inviteShortLinkKey":null,"isChainingRecommendationUnit":false,"isEntityMenu":true,"scale":2,"source":"GROUP_MALL","renderLocation":"group_mall","__relay_internal__pv__GroupsCometEntityMenuEmbeddedrelayprovider":true,"__relay_internal__pv__GlobalPanelEnabledrelayprovider":false}','server_timestamps':'true','doc_id':'5853120681430324','fb_api_analytics_tags':'["qpl_active_flow_ids=431626709"]',}
 		join = requests.post('https://www.facebook.com/api/graphql/',headers=self.head, cookies=self.cookie, data=data)
 		return join
 	def follow(self, id):
@@ -228,20 +228,20 @@ def NhapTds():
 		if os.path.exists('TokenTds.txt'):
 			with open('TokenTds.txt', 'r') as f:
 				list = json.loads(f.read())
-			frive(34)
+			frive(20)
 			print(edit+'NHẬP '+trang+'['+vang+'1'+trang+']'+luc+' SỬ DỤNG TOKEN TDS '+vang+list["user"].upper())
 			print(edit+'NHẬP '+trang+'['+vang+'2'+trang+']'+luc+' NHẬP TOKEN TDS MỚi')
 			chon = input(edit+'VUI LÒNG NHẬP LỰA CHỌN: '+trang)
 			if chon == '1':
-				frive(34)
+				frive(20)
 				return list
 			elif chon == '2':
-				os.remove('TokenTds.txt'); frive(34)
+				os.remove('TokenTds.txt'); frive(20)
 			else:
-				print(do+'LỰA CHỌN KHÔNG XÁC ĐỊNH.'); frive(34); continue
+				print(do+'LỰA CHỌN KHÔNG XÁC ĐỊNH.'); frive(20); continue
 		if not os.path.exists('TokenTds.txt'):
 			while True:
-				frive(34)
+				frive(20)
 				tk = input(edit+"NHẬP TOKEN TDS: "+trang)
 				login = TDS(tk).login()
 				if "error" in login:
@@ -258,7 +258,7 @@ def NhapTds():
 				return list
 				break
 			except:
-				os.remove('TokenTds.txt'); frive(34)
+				os.remove('TokenTds.txt'); frive(20)
 def success(dem, id, type, msg, xu):
 	uid = id.split('_')[1] if '_' in id else id
 	time=datetime.now().strftime("%H:%M:%S")
@@ -270,7 +270,8 @@ def error(id, type, dem):
 def NhapCookieFb():
 	list = []
 	z = 0
-	frive(34)
+	frive(20)
+	print(trang+"[LƯU Ý] KHI DÁN COOKIE VÔ TOOL HÃY XÓA DẤU CÁCH Ở CUỐI ĐỂ TRÁNH BỊ LỖI\n")
 	cookie = input(f'{edit}NHẬP COOKIE FACEBOOK {trang}: ')
 	getid = GETID(jsoncookie(cookie))
 	for i in getid:
@@ -279,7 +280,7 @@ def NhapCookieFb():
 		name = i["profile"]["name"]
 		o = input(f'{edit} [{z}] FACEBOOK: {vang}{name}(Y/N): ')
 		if o.upper() == "Y":list.append(cookie+"; i_user="+id+";")
-	frive(34)
+	frive(20)
 	return list
 def chongblock(delaybl):
 	for i in range(delaybl, -1, -1):
@@ -295,9 +296,9 @@ def LuuCookie():
 					list = json.loads(f.read())
 					break
 			elif chon == '2':
-				os.remove('Page-Fb-tds.txt'); frive(34)
+				os.remove('Page-Fb-tds.txt'); frive(20)
 			else:
-				print(do+'LỰA CHỌN KHÔNG XÁC ĐỊNh.'); frive(34); continue
+				print(do+'LỰA CHỌN KHÔNG XÁC ĐỊNh.'); frive(20); continue
 		if not os.path.exists('Page-Fb-tds.txt'):
 			list = NhapCookieFb()
 			with open('Page-Fb-tds.txt', 'w') as f:
@@ -312,10 +313,10 @@ def main():
 	listck = LuuCookie()
 	clear()
 	print(banner)
-	frive(34)
+	frive(20)
 	print(edit+vang+"TÀI KHOẢN: "+get["user"].upper())
 	print(edit+xnhac+"XU VND: "+str(format(int(xu), ','))+" XU")
-	frive(34)
+	frive(20)
 	print(edit+"NHẬP "+vang+"["+trang+"1"+vang+"]"+luc+" CHẠY JOB LIKE")
 	print(edit+"NHẬP "+vang+"["+trang+"2"+vang+"]"+luc+" CHẠY JOB LIKE 2")
 	print(edit+"NHẬP "+vang+"["+trang+"3"+vang+"]"+luc+" CHẠY JOB CẢM XÚC")
@@ -324,7 +325,7 @@ def main():
 	print(edit+"NHẬP "+vang+"["+trang+"6"+vang+"]"+luc+" CHẠY JOB JOIN GROUP")
 	print(edit+"NHẬP "+vang+"["+trang+"7"+vang+"]"+luc+" CHẠY JOB LIKE PAGE")
 	print(edit+trang+"BẠN CÓ THỂ CHỌN (1+2+3)")
-	frive(34)
+	frive(20)
 	nhap = input(edit+"NHẬP LỰA CHỌN: ")
 	listnv = []
 	if "+" in nhap:
@@ -342,7 +343,7 @@ def main():
 	delaymax = int(input(edit+'NHẬP DELAY MAX: '+trang))
 	print(edit+'SAU___'+luc+' NHIỆM VỤ THÌ KÍCH HOẠT CHỐNG BLOCK.',end='\r')
 	nvblock = int(input(edit+'Sau '+trang))
-	print(f'{edit}SAU {nvblock} NHIỆM VỤ NGHỈ NGƠI___ {luc} GIÂY ',end='\r')
+	print(f'{edit}SAU {nvblock} NHIỆM VỤ NGHỈ NGƠI ___ {luc} GIÂY ',end='\r')
 	delaybl = int(input(f'{edit}SAU {nvblock} NHIỆM VỤ NGHỈ NGƠI '+trang))
 	if str(len(listck)) == "1":jjjj="0"
 	else:
@@ -351,7 +352,7 @@ def main():
 	demck = 0
 	while True:
 		if len(listck) == 0:
-			frive(34)
+			frive(20)
 			print(do+'ĐÃ XOÁ TẤT CẢ COOKIE, VUI LÒNG NHẬP LẠI')
 			listck = NhapCookieFb()
 			with open('Page-Fb-tds.txt', 'w') as f:
@@ -369,9 +370,9 @@ def main():
 					Tds = TDS(get["token"])
 					cauhinh = Tds.Cauhinh(idck)
 					if "success" in cauhinh:
-						frive(34)
+						frive(20)
 						print(luc+"        PAGE ID: "+vang+idck+trang+" <|> "+luc+"FB NAME: "+vang+aaa["name"]+"              ")
-						frive(34)
+						frive(20)
 					else:
 						print(do+"PAGE: "+vang+idck+do+" CHƯA ADD VÔ TDS")
 						listck.remove(cookie)
